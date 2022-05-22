@@ -37,7 +37,7 @@ Nesse projeto desenvolvemos um Component Widget para o usuário enviar um feedba
 Clonando o projeto
 
 ~~~
-git clone https://github.com/christiangiorge/nlw-return.git
+git clone https://github.com/christiangiorge/Widget.git
 ~~~
 
 Instalando dependências
