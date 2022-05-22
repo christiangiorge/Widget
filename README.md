@@ -25,6 +25,7 @@
 - Expo
 - React native
 - Prisma
+- Nodemailer
 - Jest
 
 
