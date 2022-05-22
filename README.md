@@ -81,7 +81,7 @@ const transport = nodemailer.createTransport({
 
 ## Rodando o projeto em sua máquina
 
-Primeiro execute o comando na pasta /server
+1 - Execute o comando na pasta /server
 
 ~~~
 npm run dev
@@ -90,13 +90,13 @@ npm run dev
 npx prisma studio
 ~~~
 
-Segundo execute o comando na pasta /web
+2 - Execute o comando na pasta /web
 
 ~~~
 npm run dev
 ~~~
 
-Terceiro para rodar o projeto mobile execute o comando na pasta /mobile e no seu celular instale o expo para visualizar
+3 - Para rodar o projeto mobile execute o comando na pasta /mobile e no seu celular instale o expo para visualizar
 
 ~~~
 expo start
