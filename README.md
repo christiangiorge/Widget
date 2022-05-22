@@ -42,7 +42,7 @@ git clone https://github.com/christiangiorge/Widget.git
 
 Instalando dependências
 
-Primeiro instale todas as dependências na pasta raiz do projeto
+Primeiro instale todas as dependências nas pastas `/Widget` `/server` `/web` `/mobile` do projeto:
 
 ~~~
 npm install
