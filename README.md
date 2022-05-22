@@ -83,4 +83,6 @@ Terceiro execute o comando na pasta /mobile
 expo start
 ~~~
 
+
+
 Qualquer dúvida entre em contato 😀👍
