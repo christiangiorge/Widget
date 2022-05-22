@@ -63,6 +63,21 @@ No diretório /web altere o arquivo .env.local.example para .env.local e informe
 VITE_API_URL=http://localhost:3333
 ~~~
 
+## Envio de email
+
+Para testar o email utilizamos o serviço <a href="https://mailtrap.io/">Mailtrap</a>, faça um login e crie uma caixa de entrada, ao criar vai gerar um usuário e senha para seu email de teste, aloque ele no arquivo `/server/srv/nodemailer/nodemailer-mail-adapter.ts` segue um exemplo:
+
+~~~
+const transport = nodemailer.createTransport({
+    host: "smtp.mailtrap.io",
+    port: 2525,
+    auth: {
+      user: "your-user",
+      pass: "your-pass"
+    }
+  });
+~~~
+
 ## Rodando o projeto em sua máquina
 
 Primeiro execute o comando na pasta /server
