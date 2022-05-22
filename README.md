@@ -48,8 +48,10 @@ Primeiro instale todas as dependências na pasta raiz do projeto
 
 No diretório /server altere o arquivo .env.example para .env e informe a porta que vai rodar seu servidor e onde está o diretório de seu arquivo ./dev.db do prisma, exemplo:
 
-`DATABASE_URL="file:./dev.db`
-`PORT=3333`
+~~~
+DATABASE_URL="file:./dev.db
+PORT=3333
+~~~
 
 No diretório /web altere o arquivo .env.local.example para .env.local e informe o endereço que está rodando seu servidor , exemplo:
 
