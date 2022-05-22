@@ -69,6 +69,9 @@ Primeiro execute o comando na pasta /server
 
 ~~~
 npm run dev
+
+//Para visualizar o feedback sendo salvo no banco de dados via Prisma
+npx prisma studio
 ~~~
 
 Segundo execute o comando na pasta /web
