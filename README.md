@@ -36,13 +36,17 @@ Nesse projeto desenvolvemos um Component Widget para o usuário enviar um feedba
 
 Clonando o projeto
 
-`git clone https://github.com/christiangiorge/nlw-return.git`
+~~~
+git clone https://github.com/christiangiorge/nlw-return.git
+~~~
 
 Instalando dependências
 
 Primeiro instale todas as dependências na pasta raiz do projeto
 
-`npm install`
+~~~
+npm install
+~~~
 
 ## Variáveis de ambiente
 
@@ -55,20 +59,28 @@ PORT=3333
 
 No diretório /web altere o arquivo .env.local.example para .env.local e informe o endereço que está rodando seu servidor , exemplo:
 
-`VITE_API_URL=http://localhost:3333`
+~~~
+VITE_API_URL=http://localhost:3333
+~~~
 
 ## Rodando o projeto em sua máquina
 
 Primeiro execute o comando na pasta /server
 
-`npm run dev`
+~~~
+npm run dev
+~~~
 
 Segundo execute o comando na pasta /web
 
-`npm run dev`
+~~~
+npm run dev
+~~~
 
 Terceiro execute o comando na pasta /mobile
 
-`expo start`
+~~~
+expo start
+~~~
 
-## Qualquer dúvida entre em contato 😀👍
+Qualquer dúvida entre em contato 😀👍
