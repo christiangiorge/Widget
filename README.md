@@ -66,7 +66,7 @@ VITE_API_URL=http://localhost:3333
 
 ## Envio de email
 
-Para testar o email utilizamos o serviço <a href="https://mailtrap.io/">Mailtrap</a>, faça um login e crie uma caixa de entrada, ao criar vai gerar um usuário e senha para seu email de teste, aloque ele no arquivo `/server/srv/nodemailer/nodemailer-mail-adapter.ts` segue um exemplo:
+Para testar o email utilizamos o serviço <a href="https://mailtrap.io/">Mailtrap</a>, faça um login e crie uma caixa de entrada, ao criar vai gerar um usuário e senha para seu email de teste, aloque ele no arquivo `/server/src/nodemailer/nodemailer-mail-adapter.ts` segue um exemplo:
 
 ~~~
 const transport = nodemailer.createTransport({
@@ -96,7 +96,7 @@ Segundo execute o comando na pasta /web
 npm run dev
 ~~~
 
-Terceiro execute o comando na pasta /mobile
+Terceiro para rodar o projeto mobile execute o comando na pasta /mobile e no seu celular instale o expo para visualizar
 
 ~~~
 expo start
