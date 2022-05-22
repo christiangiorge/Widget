@@ -53,7 +53,7 @@ npm install
 No diretório /server altere o arquivo .env.example para .env e informe a porta que vai rodar seu servidor e onde está o diretório de seu arquivo ./dev.db do prisma, exemplo:
 
 ~~~
-DATABASE_URL="file:./dev.db
+DATABASE_URL="file:./dev.db"
 PORT=3333
 ~~~
 
